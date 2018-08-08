@@ -16,5 +16,6 @@ function main(string... args) {
 
     } onretry {
         // do something before retrying
+        io:println("im going to try again");
     }
 }
