@@ -9,5 +9,6 @@ public string OK = "ok";
 public int status = 1;
 
 function main(string... args) {
-    int funcVar;
+    string name = "Ballerina";
+    var age = 3;
 }
