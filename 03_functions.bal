@@ -15,7 +15,8 @@ function main(string... args) {
     var result = simpleFunc(4);
 
     defaultableParams(5, op = "dec");
-    
+    defaultableParams(5);
+        
     restParams(3, "a", "b", "c");
 
     // pass an array as the rest parameter
