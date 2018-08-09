@@ -6,9 +6,9 @@ function main(string... args) {
     // an XML with namespaces
     xmlns "http://wso2.com" as ns0;
     xml x2 = xml `<name id="123" status="single">
-                    <ns0:fname>John</ns0:fname>
-                    <ns0:lname>John</ns0:lname>
-                    </name>`;
+                      <ns0:fname>John</ns0:fname>
+                      <ns0:lname>John</ns0:lname>
+                  </name>`;
 
     // an XML literal with interpolation
     string lastName = "Doe";
