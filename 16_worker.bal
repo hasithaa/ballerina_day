@@ -4,7 +4,7 @@ function main(string... args) {
    worker w1 {
        io:println("Hello from worker w1");
        int a;
-       a -> w2;  // send value of 'a' to worker w1
+       a -> w2;  // send value of 'a' to worker w2
    }
    worker w2 {
        io:println("Hello from worker w1");
