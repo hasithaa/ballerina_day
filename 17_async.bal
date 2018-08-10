@@ -5,6 +5,8 @@ function main(string... args) {
     // Asynchronously invoke mergeSort.  
     future<int[]> result = start mergeSort([6, 2, 8]);
 
+    // do something
+
     // Wait on result
     int[] sortedArray = await result;
 

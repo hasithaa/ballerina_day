@@ -11,4 +11,7 @@ function main(string... args) {
 
         return b;
     };
+
+    // invoking the function using the variable
+    int result = outerFunc(2);
 }
