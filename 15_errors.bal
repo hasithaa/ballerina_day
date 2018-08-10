@@ -2,11 +2,11 @@ import ballerina/io;
 
 function getAccount(int accountID) returns (json|error) {
    if (accountID < 100) {
-       // This Buiness error.
+       // Buiness error.
        error err = { message: "Account with ID: " + accountID + " is not found" };
        return err;
    } else if (accountID < -1) {
-       // Promgram error.
+       // This is a Hypothetical Promgram error.
        error err = { message: "Unkown account ID" };
        throw err;
    } else {

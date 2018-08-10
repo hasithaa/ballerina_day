@@ -6,9 +6,14 @@ function main (string... args) {
     a[999] = 100;
 
     string[2] b = ["apple", "orange"];
+    string[!...] c = ["apple", "orange"];
 
     // Tuple
     (int, string, int) tuple = (1, "value", 5);
     string value = tuple[1];
 
+}
+
+function getMultipleData () returns (string, int, boolean) {
+    return ("aString", 10, false);
 }

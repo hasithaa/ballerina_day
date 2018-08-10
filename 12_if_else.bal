@@ -10,4 +10,7 @@ function main(string... args) {
     } else {
         io:println("zero");
     }
+
+    // ternary expression
+    string status = (value >= 0) ? "positive" : "negative";
 }
