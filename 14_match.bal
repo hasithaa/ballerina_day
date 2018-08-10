@@ -7,4 +7,6 @@ function main(string... args) {
         string s => { io:println("Im a string"); }
         int i => { io:println("Im an integer"); }
     }
+
+    string s = status but { int i => "integer"}; 
 }

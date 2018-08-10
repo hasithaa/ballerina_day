@@ -4,7 +4,7 @@ function main(string... args) {
         {primarykey id, name, age },
         [
             { 1, "John",  34 },
-            { 1, "Anne",  24 }
+            { 2, "Anne",  24 }
         ]
     };
 }
